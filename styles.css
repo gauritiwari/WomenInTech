@@ -1,0 +1,56 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(bg.gif);
+  background-size: cover;
+  position: absolute;
+  }
+
+  a:link {
+    color: rgb(252, 252, 252);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(252, 252, 252);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(245, 106, 81);
+    background-color: transparent;
+    text-decoration: none;
+  }
+ 
+nav.logo {
+  padding: 1vh 1vw;
+  text-align: center;
+}
+.logo img {
+  height: 40px;
+  width: 150px;
+  position: center;
+  top: 13px;
+  left: 30px;
+}
+.t{
+  color: rgb(252, 252, 252);
+  text-align: center;
+    font-size: 1.5em;
+    font-family: 'Lucida Handwriting ',cursive;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-content: center;
+  padding: 50px 30px;
+  
+  letter-spacing: 1px;
+  padding-top: 15px;
+  text-align: center;
+  line-height: 10rem;
+  font-size: 3em;
+}
